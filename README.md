@@ -1,4 +1,4 @@
-# Resp API Node Client - React + Tailwind + React Router (Data Router)
+# Rest API Node Client - React + Tailwind + React Router (Data Router)
 
 This project is a frontend application built with **React** that consumes data from a REST API located in a separate repository called **resp_api_node_ts_server**. The application uses **Tailwind CSS** for styling and **React Router DOM v6.4+** (Data Router) for navigation and data loading.
 
