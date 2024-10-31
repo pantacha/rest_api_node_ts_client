@@ -6,7 +6,7 @@ This project is a frontend application built with **React** that consumes data f
 
 - **Node.js** (version 14 or higher)
 - **npm** or **yarn** as a package manager
-- **Backend API**: Make sure you have the **resp_api_node_ts_server** project set up and running on your local machine. You can find the API repository [here](https://github.com/your-username/resp_api_node_ts_server).
+- **Backend API**: Make sure you have the **rest_api_node_ts_server** project set up and running on your local machine. You can find the API repository [here](https://github.com/your-username/resp_api_node_ts_server).
 
 ## Installation
 
