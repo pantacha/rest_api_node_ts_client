@@ -3,7 +3,7 @@ import { Layout } from "./layouts/Layout";
 import { Products, loader as productLoader, action as updateAvailabilityAction } from "./pages/ProductsPage";
 import { action as newProductAction, NewProduct } from "./pages/NewProductPage";
 import { loader as editProductLoader, EditProductPage, action as editProductAction } from "./pages/EditProductPage";
-import { action as deleteProductAction, ProductsDetails } from "./components/ProductsDetails";
+import { action as deleteProductAction } from "./components/ProductsDetails";
 
 
 export const router = createBrowserRouter([
