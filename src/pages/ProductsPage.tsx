@@ -6,7 +6,7 @@ export const loader = async () => {
   console.log('...');
   const products = await getProducts();
   console.log({products});
-  return products;
+  return products || null;
 }
 
 export const action = async ({request}: ActionFunctionArgs) => {
