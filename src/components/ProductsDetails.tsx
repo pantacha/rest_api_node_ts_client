@@ -1,4 +1,4 @@
-import { ActionFunctionArgs, Form, Link, redirect, useFetcher, useNavigate } from 'react-router-dom'
+import { ActionFunctionArgs, Form, redirect, useFetcher, useNavigate } from 'react-router-dom'
 
 import { deleteProduct } from '../services/productService'
 import { formatCurrency } from '../utils'

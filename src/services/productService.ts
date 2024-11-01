@@ -1,4 +1,4 @@
-import { number, object, string, InferInput, safeParse, InferOutput, boolean, array } from "valibot"
+import { number, object, string, safeParse, InferOutput, boolean, array } from "valibot"
 import { ProductType } from "../types"
 import axios from "axios";
 
@@ -7,9 +7,6 @@ export const ProductDataSchema = object({
     name: string(),
     price: number(),
 });
-
-// Type derved from ProductDataSchema Schema
-type ProductData = InferInput<typeof ProductDataSchema>;
 
 // VALIBOT - SCHEMA get data from the BD
 export const getProductDataSchema = object({
