@@ -51,7 +51,7 @@ export const getProducts = async () => {
             if (result.success) {
                 return result.output;
             } else {
-                throw new Error;
+                throw new Error('get products');
             }
     } catch (error) {
         console.log(error)
@@ -68,7 +68,7 @@ export const getProductById = async (id: getProductData['id']) => {
             if (result.success) {
                 return result.output;
             } else {
-                throw new Error;
+                throw new Error('get product by id');
             }
     } catch (error) {
         console.log(error)

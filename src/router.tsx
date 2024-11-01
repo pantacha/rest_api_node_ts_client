@@ -10,6 +10,7 @@ export const router = createBrowserRouter([
     {
         path: '/',
         element: <Layout />,
+        loader: async () => null,
         children: [
             {
                 index: true,
